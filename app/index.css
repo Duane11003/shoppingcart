@@ -1,0 +1,65 @@
+ body {
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     background-color: rgb(232, 232, 232);
+ }
+
+ .container {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     justify-items: center;
+     height: 800px;
+     align-items: center;
+     align-content: center;
+     justify-content: center;
+ }
+
+.btn {
+    width: 17vw;
+    height: 5vh;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 2vh;
+    transition: 0.1s
+}
+
+
+.btn:hover {
+    border: solid 1px white;
+    height: 5.75vh;
+    font-weight: 700;
+}
+
+.apple {
+    background-color: rgb(47, 181, 3);
+    color: white;
+}
+
+.banana {
+    background-color: rgb(226, 182, 4);
+}
+
+.cranberry {
+    background-color: rgb(133, 3, 3);
+    color: white;
+}
+
+.durian {
+    background-color: rgb(70, 44, 21);
+    color: white;
+}
+
+.header {
+    font-weight: 900;
+}
+
+.grandTotal {
+    font-size: 4vh;
+}
+
+.clear {
+    background-color: rgb(46, 93, 196);
+    color: white;
+    margin-top: 10px;
+}
