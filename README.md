@@ -20,4 +20,3 @@ npm run dev
 ```
 
 You will spin up a webpack dev server that's connected to a Node.js backend that queries a Postgres database. The UI consists of 4 fruit buttons (each labeled with a fruit ID) and a clear button to empty the shopping cart. As you click each button, the UI will update with both the individual fruit's price total, and the overall grand total. 
-# shoppingcart
