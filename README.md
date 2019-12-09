@@ -4,7 +4,7 @@ Create a RESTful shopping-cart API that allows clients to manage end-user shoppi
 ## Tech Used
 1. React
 2. Node/Express
-3. PostgresSql
+3. PostgresSQL
 4. Webpack
 5. HTML/CSS
 
